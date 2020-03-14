@@ -13,7 +13,7 @@ def happy_birthday(birthday_kids)
 end
 def age_appropriate_birthday(hash)
   hash.each do |name, age|
-    if age < 12
+    if age < 13
       puts "Happy Birthday #{name}! You are now #{age} years old!"
     end
   end
